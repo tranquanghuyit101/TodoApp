@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Todo App</h1>
+    
+    <!-- Bộ lọc -->
+    <div class="filter-buttons">
+      <button onclick="filterTasks('all')">Tất cả</button>
+      <button onclick="filterTasks('important')">Đánh dấu</button>
+      <button onclick="filterTasks('completed')">Hoàn thành</button>
+    </div>
+
+    <!-- Danh sách tasks -->
+    <ul id="taskList">
+      <!-- Tasks sẽ được render tại đây -->
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
